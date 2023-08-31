@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+ 
+[packages]
+flask = "*"
+dnspython = "2.3.0"
+pytest = "6.0.0"
+pytest-cov = "4.0.0"
+mypy = "1.2.0"
+requests = "*"
+pyyaml = "*"
+ 
+[requires]
+python_version = "3.9"
