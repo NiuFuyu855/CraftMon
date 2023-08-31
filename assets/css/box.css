@@ -1,0 +1,28 @@
+	.box{
+		margin: 20px;
+		margin-top: 10px;
+		border-radius: 15px;
+		padding: 10px;
+		margin-bottom: 10px;
+		background: #ecf0f3;
+		box-shadow: inset 5px 5px 10px #b1b4b6,
+			inset -5px -5px 10px #ffffff;
+	}
+	#boxs{
+		margin: 0px;
+		height: 200px;
+		overflow-x: hidden;
+		overflow-y: scroll;
+	}
+	#boxs::-webkit-scrollbar{
+		width: 5px;
+		height: 5px;
+	}
+	#boxs::-webkit-scrollbar-track{
+		border-radius: 12px;
+		background-color: #eee;
+	}
+	#boxs::-webkit-scrollbar-thumb{
+		border-radius: 12px;
+		background-color: #aaa;
+	}
